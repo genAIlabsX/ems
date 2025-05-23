@@ -2,9 +2,10 @@
 Create a Python-based Employee Management System using Django framework that allows users to add, view, update, and delete employee records. The system should store data persistently using database
 
 ## Requirements
-1. Project tech stack
-    * Python 
-    * Django
+1. Project setup
+    * use Python
+    * create dedicated python virtual environment named venvEMS and use to for all installing dependencies
+    * use Django
 2. Core Features
     * Add New Employee
         * A form to input employee details: Name, Email, Department, and Salary.
@@ -19,8 +20,8 @@ Create a Python-based Employee Management System using Django framework that all
 3. Database
     * Use SQLite database
 4. Frontend
-    * Keep the UI simple and clean.
-
+    * Keep the UI simple and clean
+    * make UI with nice look and feel, not bare-bones 
 5. Required Enhancements\
 These enhancements are mandatory:
     * Search/Filter Functionality (by name, department, or status)
@@ -30,6 +31,16 @@ These enhancements are mandatory:
 
 ## Project Code Structure
 according to standard Django code structure
+
+## Database structure
+Tables:
+* employee
+    * name, 
+    * email, 
+    * department (foreign key)
+    * salary
+* department
+    * name
 
 ## Additional
 create README.md with:
