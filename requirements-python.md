@@ -4,7 +4,7 @@ Create a Python-based Employee Management System using Django framework that all
 ## Requirements
 1. Project setup
     * use Python
-    * create dedicated python virtual environment named venvEMS and use to for all installing dependencies
+    * create dedicated python virtual environment named venv-ems and use to for all installing dependencies
     * use Django
 2. Core Features
     * Add New Employee

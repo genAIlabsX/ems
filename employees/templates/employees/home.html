@@ -1,0 +1,32 @@
+{% extends 'employees/base.html' %}
+
+{% block title %}Home - Employee Management System{% endblock %}
+
+{% block content %}
+<div class="jumbotron bg-light p-5 rounded">
+    <h1 class="display-4">Employee Management System</h1>
+    <p class="lead">A simple system to manage employee records.</p>
+    <hr class="my-4">
+    <p>Use the navigation menu or the links below to manage employees and departments.</p>
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Manage Employees</h5>
+                    <p class="card-text">Add, view, update or delete employee records.</p>
+                    <a href="{% url 'employee_list' %}" class="btn btn-primary">Go to Employees</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Manage Departments</h5>
+                    <p class="card-text">Add, view, update or delete departments.</p>
+                    <a href="{% url 'department_list' %}" class="btn btn-primary">Go to Departments</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
