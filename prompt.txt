@@ -1,6 +1,6 @@
 Build apllication according to guidelines and specification in requirements-python.md
 - create application in new dedicated folder
-- do not use '&&' in command line
+- use PowerShell-compatible command lines
 - keep application and code clean and simple
 - keep strict to requirements for tech stack and solution details in requirements
 - do not add any additional features besides those specifically mentioned in requirements
