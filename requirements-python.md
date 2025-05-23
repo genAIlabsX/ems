@@ -8,8 +8,8 @@ Create a Python-based Employee Management System using Django framework that all
     * use Django
 2. Core Features
     * Add New Employee
-        * A form to input employee details: Name, Email, Department, and Salary.
-        * On submission, the data should be saved to the H2 database.
+        * A form to input employee details: Name, Email, Department, Salary, Status.
+        * On submission, the data should be saved to the database.
     * View All Employees
         * A page that lists all employees in a tabular format.
         * Data should be fetched from database and displayed using 
@@ -39,6 +39,7 @@ Tables:
     * email, 
     * department (foreign key)
     * salary
+    * status [Active/Inactive]
 * department
     * name
 
