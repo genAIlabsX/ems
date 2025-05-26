@@ -4,5 +4,5 @@ Build apllication according to guidelines and specification in requirements-pyth
 - keep application and code clean and simple
 - keep strict to requirements for tech stack and solution details in requirements
 - do not add any additional features besides those specifically mentioned in requirements
-- generate JavaDoc code comments
+- generate code comments
 - do not dupliacte code
