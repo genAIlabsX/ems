@@ -6,3 +6,7 @@ Build apllication according to guidelines and specification in requirements-pyth
 - do not add any additional features besides those specifically mentioned in requirements
 - generate code comments
 - do not dupliacte code
+
+based on source code in #codebase create project technical documentation in markdown:
+- use guidelines from technical_doc_guidelines.md:
+- use PlantUML plugin for creating diagrams
