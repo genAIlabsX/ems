@@ -10,7 +10,7 @@ Describe technology stack and list all technical components
 
 ### Architecture
 * Create architecture diagram 
-* Provide additional descriptions to thorougly axpalin application architecture
+* Provide additional descriptions for application architecture
 
 ### Component 
 * Create component diagram
